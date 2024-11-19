@@ -1,0 +1,365 @@
+/*Diseño fondo*/
+body {
+    margin: 0; 
+    display: flex;               
+    flex-direction: column;      
+    font-family: Arial, Helvetica, sans-serif;
+    background: repeating-linear-gradient(
+        90deg,
+        #b2e2dd,
+        #b2e2dd 50px,
+        #75cac3 50px,
+        #75cac3 100px
+    );
+    color: #333;
+}
+main {
+    flex: 1;                    
+}
+
+/* Estilos de la barra de navegacion*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009999;
+    padding: 20px;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo img {
+    width: 75px;
+    height: 75px;
+}
+
+nav {
+    flex: 20;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+/* MENU DULCE PECADO*/
+.MENU-H3 {
+    background-color: #B2292E;          
+    color: white;                   
+    padding: 10px;                  
+    text-align: center;             
+    font-size: 1.5em;               
+    margin: 20px auto;              
+    width: 80%;                     
+    max-width: 800px;               
+    border-radius: 20px;             
+}
+
+
+.menu-secciones {
+    display: flex;                  
+    justify-content: space-around; 
+    margin: 20px auto;              
+    width: 90%;                     
+    max-width: 800px;               
+}
+/* Estilo para cada sección de menú */
+.menu-secciones .seccion {
+    background-color: #B2292E;          
+    color: white;                   
+    padding: 15px;                  
+    text-align: center;             
+    font-size: 1.2em;               
+    width: 28%;                     
+    border-radius: 20px;             
+    margin: 5px;                    
+    text-decoration: none;          
+    display: block;                 
+    transition: background-color 0.3s; 
+}   
+.menu-secciones .seccion:hover {
+    background-color: darkred;      
+}
+
+
+/*seccion fresas con crema*/
+
+.fresas-crema {
+    display: flex;                
+    flex-direction: column;      
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009999;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.h2-fresas {
+    width: 100%;                 
+    max-width: 25cm;            
+    margin: 0 auto;             
+    text-align: left;   
+    margin-bottom: 30px;       
+}
+
+.text {
+    background-color: #B2292E;  
+    color: white;                
+    padding: 15px 10px;              
+    border-radius: 20px;         
+    display: inline-block;       
+    width: 50%; 
+    font-size: 2vh;    
+    margin-left: -15.1cm;
+    margin-top: -10cm;            
+}
+/* Título de cada info */
+.pro-h3-fresas {
+    background-color: #B2292E;          
+    color: white;                         
+    display: inline-block;                
+    padding: 10px 20px;                   
+    border-radius: 20px;                  
+    position: absolute;                   
+    width: 50%;  
+    height: auto;                         
+    top: -25px; 
+    left: 29%;                             
+    transform: translateX(-50%);           
+    font-size: 1.2em; 
+    text-align: center;
+    font-weight: bold;
+}
+
+/* informacion de cada crepa*/
+.fresas-info {
+    background-color: #C6E4DF;  
+    color: #333;                
+    padding: 25px 15px;         
+    border-radius: 20px;        
+    margin: 10px;               
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+    justify-content: center;    
+    width: 45%; 
+    max-width: 500px; 
+    height: 160px;              
+    position: relative;         
+    text-align: center;         
+}
+
+.text-p-fresas {
+    font-size: 1rem;                     
+    color: #2DA9A2;                       
+    margin: 5px;                        
+    font-weight: bold;                    
+    text-align: left;    
+    width: 100%;         
+}
+
+/* Estilo para la imagen principal */
+.img-container {
+    position: relative;
+    text-align: center;
+}
+
+.img-fresas {
+    display: block;
+    margin: 0 auto;
+    width: 50%; 
+    height: auto;
+    margin-top: -40px;  
+}
+
+/* Contenedor de los precios */
+.price-info-fresas {
+    position: absolute;
+    top: 10px;
+    right: -18cm;
+    top: 0cm;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    }
+
+    .extra-price-fresas {
+        font-size: 2.5rem;
+        color: white;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    /* Estilos para las crepas premium */
+    .fila-fresas {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .img-small-sencilla {
+        position: absolute;
+        bottom: 1cm;
+        right: 30px;
+        width: 40%; 
+        height: auto;
+    }
+    
+    .img-small-pay {
+        position: absolute;
+        bottom: 0.5cm;
+        right: 1cm;
+        width: 30%; 
+        height: auto;
+    }
+
+    /*Estilos seccion de postres*/
+
+.postres {
+    display: flex;                
+    flex-direction: column;      
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009999;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.h2-postres {
+    width: 100%;                 
+    max-width: 25cm;            
+    margin: 0 auto;             
+    text-align: left;   
+    margin-bottom: 30px;       
+}
+
+.text {
+    background-color: #B2292E;  
+    color: white;                
+    padding: 15px 10px;              
+    border-radius: 20px;         
+    display: inline-block;       
+    width: 50%; 
+    font-size: 2vh;    
+    margin-left: -15.1cm;
+    margin-top: -10cm;            
+}
+/* Título de cada info */
+.pro-h3-postres {
+    background-color: #B2292E;          
+    color: white;                         
+    display: inline-block;                
+    padding: 10px 20px;                   
+    border-radius: 20px;                  
+    position: absolute;                   
+    width: 50%;  
+    height: auto;                         
+    top: -25px; 
+    left: 29%;                             
+    transform: translateX(-50%);           
+    font-size: 1.2em; 
+    text-align: center;
+    font-weight: bold;
+}
+
+/* informacion de cada crepa*/
+.postres-info {
+    background-color: #C6E4DF;  
+    color: #333;                
+    padding: 25px 15px;         
+    border-radius: 20px;        
+    margin: 10px;               
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+    justify-content: center;    
+    width: 45%; 
+    max-width: 500px; 
+    height: 160px;              
+    position: relative;         
+    text-align: center;         
+}
+
+.text-p-postres {
+    font-size: 2rem;                     
+    color: #2DA9A2;                       
+    margin: 5px;                        
+    font-weight: bold;                    
+    text-align: left;    
+    width: 100%;         
+}
+
+
+/* Estilo para la imagen principal */
+.img-container {
+    position: relative;
+    text-align: center;
+}
+
+.img-postre {
+    display: block;
+    margin: 0 auto;
+    width: 50%; 
+    height: auto;
+    margin-top: -40px;  
+}
+
+.img-small-pastel {
+    position: absolute;
+    bottom: 1.5cm;
+    right: 30px;
+    width: 35%; 
+    height: auto;
+}
+    
+.img-small-payqueso {
+    position: absolute;
+    bottom: 1.5cm;
+    right: 1cm;
+    width: 30%; 
+    height: auto;
+}
+
+.img-small-hotcakes {
+    position: absolute;
+    bottom: 1.5cm;
+    right: 30px;
+    width: 40%; 
+    height: auto;
+}
+    
+.img-small-minihotcakes {
+    position: absolute;
+    bottom: 1.5cm;
+    right: 1cm;
+    width: 30%; 
+    height: auto;
+}
+.fila-postres {
+    display: flex;              
+    justify-content: space-around;  
+    width: 100%;              
+    max-width: 100%;           
+    margin: 10px;          
+    }

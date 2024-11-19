@@ -1,0 +1,172 @@
+/*Diseño fondo*/
+body {
+    margin: 0; 
+    display: flex;               
+    flex-direction: column;      
+    font-family: Arial, Helvetica, sans-serif;
+    background: repeating-linear-gradient(
+        90deg,
+        #b2e2dd,
+        #b2e2dd 50px,
+        #75cac3 50px,
+        #75cac3 100px
+    );
+    color: #333;
+}
+main {
+    flex: 1;                    
+}
+
+/* Estilos de la barra de navegacion*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009999;
+    padding: 20px;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo img {
+    width: 75px;
+    height: 75px;
+}
+
+nav {
+    flex: 20;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+/* Estilos del banner de fresas con crema */
+.banner {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #009999;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.banner-texto {
+    flex: 1;
+    color: white;
+    font-size: 34px;
+    text-align: left;
+    font-family: Garamond;
+    margin-right: 5cm;
+}
+
+.banner-imagen {
+    flex: 1;
+    display: flex;
+
+}
+
+.banner-imagen img {
+    width: 200px; 
+    margin-left: 10cm;
+}
+.container-pro{
+    background-color: #009999;
+    border-radius: 20px;
+}
+/* Estilos de la seccion de promociones */
+.promociones {
+    display: flex;                
+    flex-direction: column;      
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009999;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.container-h2 {
+    width: 100%;                 
+    max-width: 20cm;            
+    margin: 0 auto;             
+    text-align: center;   
+    margin-bottom: 30px;       
+}
+
+.text {
+    background-color: #b40000;  
+    color: white;                
+    padding: 15px 10px;              
+    border-radius: 20px;         
+    display: inline-block;       
+    width: 100%; 
+    font-size: 2vh;                
+}
+
+.pro-h3 {
+    background-color: #b40000;            
+    color: white;                         
+    display: inline-block;               
+    padding: 10px 20px;                   
+    border-radius: 20px 20px 20px 20px;                  
+    position: absolute;  
+    width: 13.5cm;  
+    height: 25px;               
+    top: -38px;                           
+    left: 50%;                            
+    transform: translateX(-50%);          
+    font-size: 2vh;                     
+}
+.promocion {
+    background-color: #C6E4DF;  
+    color: #333;                
+    padding: 20px;             
+    border-radius: 20px;        
+    margin: 10px;               
+    display: inline-block;      
+    width: 500px;   
+    height: 200px;            
+    position: relative;         
+    text-align: center;   
+    margin-bottom: 50px;    
+}
+
+.text-p {
+    font-size: 1.5rem;                     
+    color: #2DA9A2;                       
+    margin: 5px 0;                        
+    font-weight: bold;                      
+    text-align: center;
+    align-items: center;
+    justify-content: center;                     
+    margin-top: 1.5cm;
+}
+/* Estilos Footer */
+footer {
+    text-align: center;         
+    padding: 20px;             
+    color: #b40000;            
+    font-size: 14px;           
+}
