@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dulce Pecado</title>
     <link rel="stylesheet" href="/styles/reservaciones.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -49,10 +51,21 @@
                 </div>
                 <div class="promocion">
                     <h3 class="pro-h3">Reservaciones</h3>
-                    <input type="text" placeholder="Nombre:">
-                    <input type="date">
-                    <input type= "text" placeholder="Ubicación:">
-                    <button type="submit"> Reservar</button>
+                    <form id="form">
+                        <input type="text" placeholder="Nombre:" id="name" name="name" required>
+                        <input type="tel" placeholder="Teléfono:" id="phone" name="phone" required>
+                        <input type="text" placeholder="Tipo de evento:" id="event" name="event" required>
+                        <input type="number" placeholder="Número de personas:" id="people" name="people" required>
+                        <input type="date" id="date" name="date" required>
+                        <input type="text" placeholder="Ubicación:" id="location" name="location" required>
+                        <input type="submit" id="button" value="Reservar">
+                    </form>
+                    <script type="text/javascript"
+                        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+                    <script type="text/javascript">
+                        emailjs.init('f9lkUkdLlpWwc5PHS')
+                    </script>
                 </div>
                 <div class="promocion">
                     <h3 class="pro-h3">Ubicación</h3>
@@ -66,4 +79,8 @@
         <p>&copy; 2024 Todos los derechos reservados</p>
     </footer>
 </body>
+
+
+<script src="./js/reservations.js"></script>
+
 </html>
