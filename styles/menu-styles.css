@@ -26,6 +26,24 @@ header {
     padding: 20px;
 }
 
+@media (max-width: 767px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
 .logo {
     flex: 1;
     display: flex;
@@ -105,6 +123,7 @@ nav ul li a {
 
 /*Estilos de la seccion de crepas premium*/
 
+
 .crep-pre {
     display: flex;                
     flex-direction: column;      
@@ -119,7 +138,7 @@ nav ul li a {
     width: 100%;                 
     max-width: 25cm;            
     margin: 0 auto;             
-    text-align: left;   
+    margin-left: 555px;  
     margin-bottom: 30px;       
 }
 
@@ -131,9 +150,173 @@ nav ul li a {
     display: inline-block;       
     width: 50%; 
     font-size: 2vh;    
-    margin-left: -15.1cm;
-    margin-top: -10cm;            
+
 }
+
+@media (max-width: 767px){
+
+    .price {
+        margin-top: 150px;
+        margin-right: 500px;
+        margin-bottom: 10px;
+    }
+    
+    .price-info .extra-price {    
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-right: 500px;
+        margin-bottom: 0px;
+    }
+
+    .img-container .img-crep{
+        margin-top: -30px;
+        margin-bottom: 50px;
+        margin-left: -15px;
+    }
+
+    .fila-crepas-premium{
+        flex-direction: column;
+    }
+
+    .fila-crepas-premium .premium-info{
+        margin-left:18px;
+        width: 250px;
+        margin-top: 70px;
+    }
+    
+    .fila-crepas-premium .premium-info .pro-h3{
+        width: 250px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-gansito{
+        width: 112px;
+        margin-right:50px;
+        margin-bottom:-10px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-ferrero{
+        width: 100px;
+        margin-right:10px;
+        margin-bottom:-10px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-kinder{
+        width: 112px;
+        margin-right:20px;
+        margin-bottom:-10px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-chocorrol{
+        width: 80px;
+        margin-right:20px;
+        margin-bottom:0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .img-container .img-crep{
+        text-align: center;
+        width: 200px;
+
+        margin-top: 10px;
+        margin-left: -280px;
+    }
+
+
+    .price {
+        margin-top: 80px;
+        margin-right: 220px;
+        margin-bottom: 10px;
+    }
+    
+    .price-info .extra-price {    
+        font-size: 1.5rem;
+        margin-right: 200px;
+        
+    }
+
+
+    .fila-crepas-premium .premium-info{
+        margin-left:18px;
+        width: 250px;
+        margin-top: 70px;
+    }
+    
+    .fila-crepas-premium .premium-info .pro-h3{
+        width: 250px;
+        margin-top: 0px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-gansito{
+        width: 112px;
+        margin-right:50px;
+        margin-bottom:-10px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-ferrero{
+        width: 100px;
+        margin-right:10px;
+        margin-bottom:-10px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-kinder{
+        width: 112px;
+        margin-right:20px;
+        margin-bottom:-10px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-chocorrol{
+        width: 80px;
+        margin-right:20px;
+        margin-bottom:0px;
+    }
+}
+
+@media (min-width: 1025px){
+
+    .img-container .img-crep{
+        margin-top: -30px;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+
+    .fila-crepas-premium .premium-info{
+        margin-left:18px;
+        width: 250px;
+        margin-top: 70px;
+    }
+    
+    .fila-crepas-premium .premium-info .pro-h3{
+        width: 250px;
+        margin-top: 5px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-gansito{
+        width: 112px;
+        margin-right:40px;
+        margin-bottom:15px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-ferrero{
+        width: 100px;
+        margin-right: 5px;
+        margin-bottom:-5px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-kinder{
+        width: 112px;
+        margin-right:20px;
+        margin-bottom:-0px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-chocorrol{
+        width: 70px;
+        margin-right:20px;
+        margin-bottom:0px;
+    }
+}
+
 
 /* Título de cada crepa */
 .pro-h3 {
@@ -142,8 +325,11 @@ nav ul li a {
     display: inline-block;                
     padding: 10px 20px;                   
     border-radius: 20px;                  
-    position: absolute;                   
-    width: 93%;  
+    position: absolute;    
+
+    width: 200px;  
+    
+
     height: auto;                         
     top: -25px; 
     left: 50%;                             
@@ -162,10 +348,13 @@ nav ul li a {
     margin: 10px;               
     display: flex;              
     flex-direction: column;     
-    align-items: center;        
-    justify-content: center;    
-    width: 45%; 
-    max-width: 400px; 
+    
+    justify-content: center;   
+
+    margin-left:1px;
+    width: 250px;
+
+    
     height: 160px;              
     position: relative;         
     text-align: center;         
@@ -179,7 +368,9 @@ nav ul li a {
     margin: 5px;                        
     font-weight: bold;                    
     text-align: left;    
-    width: 100%;         
+    width: 100%;  
+           
+    
 }
 
 .fila-crepas-premium {
@@ -208,25 +399,31 @@ nav ul li a {
 .price-info {
     position: absolute;
     top: 10px;
-    right: -23cm;
+    right: -500px;
     top: -2cm;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+
+    margin-left: 1200px;
     }
 
     .price {
         font-size: 3rem;
         color: white;
         font-weight: bold;
-        margin: 0;
+        right: -500px;
+        margin-bottom: 10px;
     }
     
-    .extra-price {
-        font-size: 2rem;
+    .extra-price {    
         color: white;
         font-weight: normal;
         margin: 0;
+
+        font-size: 1.5rem;
+        right: -500px;
+        margin-bottom: 10px;
     }
 
 
@@ -283,6 +480,119 @@ nav ul li a {
 
 /*Estilos seccion crepizza*/
 
+@media (max-width: 767px){
+
+    .price-info-crepizza {
+        margin-top: 130px;
+        margin-right: 350px;
+        margin-bottom: 103px;
+    }
+    
+    .price-info-crepizza .extra-price-crepizza {    
+        font-size: 1.5rem;
+        margin-bottom: 103px;
+        margin-right: 340px;
+        
+    }
+
+    .img-container .img-crep{
+        margin-top: -30px;
+        margin-bottom: 100px;
+        margin-left: -15px;
+    }
+
+
+    .img-container .img-crepizza{
+        text-align: center;
+        width: 250px;
+        margin-bottom: 100px;
+    }
+
+    .fila-crepizza{
+        flex-direction: column;
+    }
+
+    .fila-crepizza .crepizza-info{
+        margin-left:18px;
+        width: 250px;
+        margin-top: 70px;
+    }
+    
+    .fila-crepizza .crepizza-info .pro-h3{
+        width: 250px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .img-container .img-crepizza{
+        text-align: center;
+        width: 250px;
+        margin-left: -280px;
+    }
+
+    .fila-crepizza .crepizza-info{
+        margin-left:18px;
+        width: 200px;
+        margin-top: 70px;
+    }
+    
+    .fila-crepizza .crepizza-info .pro-h3{
+        width: 170px;
+    }
+
+    .price-info-crepizza {
+        position: absolute;
+        top: 10px;
+        right: -18cm;
+        top: -2cm;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        }
+    
+        .price-crepizza {
+            font-size: 2rem;
+            color: white;
+            font-weight: bold;
+          
+    
+            margin-right: 350px;
+        }
+        
+        .extra-price-crepizza {
+            font-size: 1rem;
+            color: white;
+            font-weight: normal;
+            margin: 0;
+    
+            font-size: 1.5rem;
+            margin-right: -150px;
+            margin-bottom: 10px;
+        }
+
+}
+
+@media (min-width: 1025px){
+
+    .img-container .img-crepizza{
+        text-align: center;
+        width: 300px;
+    }
+
+    .fila-crepizza .crepizza-info{
+        margin-left:18px;
+        width: 300px;
+        margin-top: 70px;
+    }
+    
+    .fila-crepizza .crepizza-info .pro-h3{
+        width: 300px;
+    }
+
+}
+
 .crepizza {
     display: flex;                
     flex-direction: column;      
@@ -297,8 +607,10 @@ nav ul li a {
     width: 100%;                 
     max-width: 25cm;            
     margin: 0 auto;             
-    text-align: left;   
-    margin-bottom: 30px;       
+    margin-left: 555px;  
+    margin-bottom: 30px;  
+    
+    
 }
 
 .text {
@@ -373,7 +685,9 @@ nav ul li a {
         font-size: 3rem;
         color: white;
         font-weight: bold;
-        margin: 0;
+      
+
+        margin-right: 350px;
     }
     
     .extra-price-crepizza {
@@ -381,6 +695,10 @@ nav ul li a {
         color: white;
         font-weight: normal;
         margin: 0;
+
+        font-size: 1.5rem;
+        margin-right: 350px;
+        margin-bottom: 10px;
     }
 
 
@@ -405,6 +723,187 @@ nav ul li a {
 /* estilos seccion de crepas tradicionles */
 
 
+@media (max-width: 767px){
+
+    .price-info-tra .price-tra {
+        margin-top: 150px;
+        margin-right: 850px;
+        margin-bottom: 10px;
+    }
+    
+    .price-info-tra .extra-price-tra {    
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-right: 850px;
+        margin-bottom: 0px;
+        
+    }
+
+    .img-container .img-trad{
+        margin-top: -30px;
+        margin-bottom: 100px;
+        margin-left: -15px;
+    }
+
+    .fila-crepas-tradicionales{
+        flex-direction: column;
+    }
+
+    .fila-crepas-tradicionales .tradicionales-info{
+        margin-left:18px;
+        width: 250px;
+        margin-top: 70px;
+    }
+    
+    .fila-crepas-tradicionales .tradicionales-info .pro-h3{
+        width: 250px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-gansito{
+        width: 112px;
+        margin-right:50px;
+        margin-bottom:-10px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-ferrero{
+        width: 100px;
+        margin-right:10px;
+        margin-bottom:-10px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-kinder{
+        width: 112px;
+        margin-right:20px;
+        margin-bottom:-10px;
+    }
+
+    .fila-crepas-premium .premium-info .img-small-chocorrol{
+        width: 80px;
+        margin-right:20px;
+        margin-bottom:0px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .price-info-tra .price-tra {
+        margin-top: 40px;
+        margin-right: 800px;
+        margin-bottom: 10px;
+    }
+    
+    .price-info-tra .extra-price-tra {    
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-right: 800px;
+        margin-bottom: 0px;
+        
+    }
+
+    .img-container .img-trad{
+        margin-top: -30px;
+        margin-bottom: 10px;
+        margin-right: 250px;
+        width: 200px;
+    }
+
+
+    .fila-crepas-tradicionales .tradicionales-info{
+        margin-left:18px;
+        width: 200px;
+        margin-top: 70px;
+        height: 200px;
+    }
+    
+    .fila-crepas-tradicionales .tradicionales-info .pro-h3{
+        width: 110px;
+    }
+
+    .fila-crepas-tradicionales .tradicionales-info .img-small-dulce{
+        width: 60px;
+        margin-right:20px;
+        margin-bottom:25px;
+    }
+
+    .fila-crepas-tradicionales .tradicionales-info .img-small-monkey{
+        width: 85px;
+        margin-right:40px;
+        margin-bottom:15px;
+    }
+
+    .fila-crepas-tradicionales .tradicionales-info .img-small-rosita{
+        width: 55px;
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+
+    .fila-crepas-tradicionales .tradicionales-info .img-small-oreo{
+        width: 80px;
+        margin-right:20px;
+        margin-bottom:25px;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .price-info-tra .price-tra {
+        margin-top: 40px;
+        margin-right: 350px;
+        margin-bottom: 10px;
+    }
+    
+    .price-info-tra .extra-price-tra {    
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-right: 350px;
+        margin-bottom: 0px;
+        
+    }
+
+    .img-container .img-trad{
+        margin-top: -30px;
+        margin-bottom: 10px;
+        margin-left: -15px;
+    }
+
+
+    .fila-crepas-tradicionales .tradicionales-info{
+        margin-left:18px;
+        width: 250px;
+        margin-top: 70px;
+        height: 150px;
+    }
+    
+    .fila-crepas-tradicionales .tradicionales-info .pro-h3{
+        width: 250px;
+    }
+
+    .fila-crepas-tradicionales .tradicionales-info .img-small-dulce{
+        width: 60px;
+        margin-right:20px;
+        margin-bottom:25px;
+    }
+
+    .fila-crepas-tradicionales .tradicionales-info .img-small-monkey{
+        width: 85px;
+        margin-right:40px;
+        margin-bottom:15px;
+    }
+
+    .fila-crepas-tradicionales .tradicionales-info .img-small-rosita{
+        width: 55px;
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+
+    .fila-crepas-tradicionales .tradicionales-info .img-small-oreo{
+        width: 80px;
+        margin-right:20px;
+        margin-bottom:25px;
+    }
+}
+
 
 .tradicionales {
     display: flex;                
@@ -421,8 +920,12 @@ nav ul li a {
     max-width: 25cm;            
     margin: 0 auto;             
     text-align: left;   
-    margin-bottom: 30px;       
+    margin-bottom: 30px;  
+    
+    margin-left: 555px;  
+    margin-bottom: 30px;  
 }
+
 .price-info-tra {
     position: absolute;
     top: 10px;

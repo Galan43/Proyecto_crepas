@@ -26,6 +26,24 @@ header {
     padding: 20px;
 }
 
+@media (max-width: 767px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
 .logo {
     flex: 1;
     display: flex;
@@ -102,7 +120,55 @@ nav ul li a {
     background-color: darkred;      
 }
 
+
+
+
+
 /*Estilos container bebidas*/
+
+@media (max-width: 767px){
+    .bebidas .h2-bebidas {
+        width: 350px;  
+        margin-left: 1130px;  
+    }
+
+    .bebidas .fila-bebidas{
+        display: grid;
+        grid-template-rows: auto auto; 
+        gap: 1px; 
+    }
+
+    .bebidas .fila-bebidas .bebida-info {
+        width: 110px;
+    }
+
+    .bebidas .fila-bebidas .bebida-info .pro-h3{
+        width: 110px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .bebidas .h2-bebidas {
+        width: 600px;  
+        margin-left: 1005px;  
+    }
+
+    .bebidas .fila-bebidas .bebida-info {
+        width: 110px;
+    }
+
+    .bebidas .fila-bebidas .bebida-info .pro-h3{
+        width: 110px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1024px){
+
+}
+
 
 .bebidas {
     display: flex;                
@@ -115,9 +181,9 @@ nav ul li a {
     border-radius: 10px;
 }
 .h2-bebidas {
-    width: 100%;                 
-    max-width: 25cm;            
-    margin: 0 auto;             
+    width: 800px;  
+    margin-left: 548px;
+    
     text-align: left;   
     margin-bottom: 30px;       
 }
@@ -243,10 +309,11 @@ nav ul li a {
 }
 
 
-/* Estilos Footer */
 footer {
     text-align: center;         
     padding: 20px;             
-    color: black;            
-    font-size: 14px;           
+    color: #000000;            
+    font-size: 18px;
+
+    font-weight: bold;         
 }
