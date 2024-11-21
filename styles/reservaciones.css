@@ -26,6 +26,116 @@ header {
     padding: 20px;
 }
 
+@media (max-width: 767px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        width: 295px;
+        height: 480px;  
+    }
+
+    .banner .banner-texto {
+        font-size: 34px;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .banner-imagen img {
+        width: 150px;
+        height: 200px;
+        margin-right: 350px;
+    }
+}
+
+@media (max-width: 767px){
+    .promociones .container-pro {
+        display: grid;
+        grid-template-rows: auto auto; 
+        gap: 1px; 
+    }
+
+    .promociones .container-pro .promocion{
+        width: 280px;
+    }
+
+    .promociones .container-pro .promocion .contacto-container{
+        width: 280px;
+        display: grid;
+        grid-template-rows: auto auto; 
+        gap: 1px; 
+        margin-left: 30px;
+    }
+
+    .promociones .container-pro .promocion .contacto-container .logo-cont{
+        width: 150px;
+        margin-left: 30px;
+    }
+ 
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        width: 670px;
+        height: 480px;  
+    }
+
+    .banner .banner-texto {
+        font-size: 34px;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .banner-imagen img {
+        width: 150px;
+        height: 200px;
+        margin-right: 350px;
+    }
+
+    .promociones .container-pro {
+        display: grid;
+        grid-template-rows: auto auto; 
+        gap: 1px; 
+    }
+
+    .promociones .container-pro .promocion{
+        width: 480px;
+    }
+
+    .promociones .container-pro .promocion .contacto-container{
+        width: 280px;
+        display: grid;
+        grid-template-rows: auto auto; 
+        gap: 1px; 
+        margin-left: 30px;
+    }
+
+    .promociones .container-pro .promocion .contacto-container .logo-cont{
+        width: 150px;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 1024px){
+
+}
+
 .logo {
     flex: 1;
     display: flex;
@@ -252,6 +362,8 @@ button{
 footer {
     text-align: center;         
     padding: 20px;             
-    color: #b40000;            
-    font-size: 14px;           
+    color: #000000;            
+    font-size: 18px;
+
+    font-weight: bold;         
 }

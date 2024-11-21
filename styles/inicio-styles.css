@@ -26,6 +26,66 @@ header {
     padding: 20px;
 }
 
+@media (max-width: 767px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        width: 295px;
+        height: 480px;  
+    }
+
+    .banner .banner-texto {
+        font-size: 34px;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .banner-imagen img {
+        width: 150px;
+        height: 200px;
+        margin-right: 350px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        width: 670px;
+        height: 480px;  
+    }
+
+    .banner .banner-texto {
+        font-size: 34px;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .banner-imagen img {
+        width: 150px;
+        height: 200px;
+        margin-right: 350px;
+    }
+}
+
 .logo {
     flex: 1;
     display: flex;
@@ -62,6 +122,8 @@ nav ul li a {
     padding: 10px;
     text-align: center;
 }
+
+
 /* Estilos del banner de fresas con crema */
 .banner {
     display: flex;
@@ -106,6 +168,7 @@ nav ul li a {
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
+    
 }
 .container-h2 {
     width: 100%;                 
@@ -132,7 +195,10 @@ nav ul li a {
     padding: 10px 20px;                   
     border-radius: 20px 20px 20px 20px;                  
     position: absolute;  
-    width: 13.5cm;  
+
+    width: 350px; 
+  
+
     height: 25px;               
     top: -38px;                           
     left: 50%;                            
@@ -145,12 +211,44 @@ nav ul li a {
     padding: 20px;             
     border-radius: 20px;        
     margin: 10px;               
-    display: inline-block;      
-    width: 500px;   
+    display: inline-block;    
+
+    width: 350px;   
+    
     height: 200px;            
     position: relative;         
-    text-align: center;   
+    text-align: center; 
     margin-bottom: 50px;    
+}
+
+@media (max-width: 767px) {
+    .promocion {
+        width: 270px;
+    }
+
+    .pro-h3 {
+        width: 270px;
+    }
+
+    .container-pro .container-h2 .text{
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .promocion {
+        width: 470px;
+        margin-left: 100px;
+        height: 190px;
+    }
+
+    .pro-h3 {
+        width: 470px;
+    }
+
+    .container-pro .container-h2 .text{
+        width: 550px;
+    }
 }
 
 .text-p {
@@ -167,6 +265,8 @@ nav ul li a {
 footer {
     text-align: center;         
     padding: 20px;             
-    color: #b40000;            
-    font-size: 14px;           
+    color: #000000;            
+    font-size: 18px;
+
+    font-weight: bold;         
 }

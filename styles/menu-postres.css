@@ -26,6 +26,24 @@ header {
     padding: 20px;
 }
 
+@media (max-width: 767px) {     
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
 .logo {
     flex: 1;
     display: flex;
@@ -116,9 +134,8 @@ nav ul li a {
     border-radius: 10px;
 }
 .h2-fresas {
-    width: 100%;                 
-    max-width: 25cm;            
-    margin: 0 auto;             
+    width: 800px;                           
+    margin-left: 555px;             
     text-align: left;   
     margin-bottom: 30px;       
 }
@@ -193,6 +210,77 @@ nav ul li a {
     margin-top: -40px;  
 }
 
+@media (max-width: 767px){
+    .fresas-crema .fila-fresas {
+        width: 340px;
+    }
+
+    .fresas-crema .h2-fresas {
+        width: 400px;       
+        margin-left: 1190px;                
+    }
+
+
+    .img-container .img-fresas{
+        width: 130px;
+        margin-bottom: 120px;
+    }
+
+    .price-info-fresas .extra-price-fresas {
+        margin-top: 120px;
+        margin-right: 680px;
+        margin-bottom: 0px;
+
+        font-size: 1.5rem;
+    }
+
+    .price-info-fresas .extra-price-fresas {
+        margin-top: 120px;
+        margin-right: 680px;
+        margin-bottom: 0px;
+
+        font-size: 1.5rem;
+    }
+
+    .fresas-crema .fila-fresas .fresas-info .pro-h3-fresas{
+        width: 120px;
+        margin-left: 30px;
+    }
+}
+    
+@media (min-width: 768px) and (max-width: 1024px){
+    .fresas-crema .h2-fresas {
+        width: 700px;       
+        margin-left: 1110px;                
+    }
+
+    .fresas-crema .fila-fresas {
+        width: 700px;
+    }
+
+    .price-info-fresas .extra-price-fresas {
+        margin-right: 550px;
+        margin-bottom: -40px;
+    }
+
+    .img-fresas{
+        width: 150px;
+        margin-right: 300px;
+        margin-bottom: 40px;
+        margin-top: 0px;
+    }
+}
+    
+@media (min-width: 1024px){
+    .img-fresas{
+        width: 200px;
+        margin-left: -310px;
+        margin-right: -400px;
+    }
+
+}
+
+
 /* Contenedor de los precios */
 .price-info-fresas {
     position: absolute;
@@ -202,27 +290,30 @@ nav ul li a {
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    
     }
 
     .extra-price-fresas {
         font-size: 2.5rem;
         color: white;
         font-weight: normal;
-        margin: 0;
+        margin-right: 250px;
+        margin-bottom: -30px;
     }
 
+    
     /* Estilos para las crepas premium */
     .fila-fresas {
         display: flex;
         justify-content: space-between;
-        width: 50%;
+        width: 1200px;
     }
 
     .img-small-sencilla {
         position: absolute;
         bottom: 1cm;
         right: 30px;
-        width: 40%; 
+        width: 30%; 
         height: auto;
     }
     
@@ -230,11 +321,64 @@ nav ul li a {
         position: absolute;
         bottom: 0.5cm;
         right: 1cm;
-        width: 30%; 
+        width: 25%; 
         height: auto;
     }
 
     /*Estilos seccion de postres*/
+
+
+
+
+@media (max-width: 767px){
+    .postres .h2-postres {
+        width: 400px;                            
+        margin-left: 1185px;  
+    }
+
+    .postres .fila-postres{
+        flex-direction: column;
+    }
+
+    .postres-info .pro-h3-postres {
+        width: 220px;
+        margin-bottom: 400px;
+        margin-left: 50px;
+        margin-right: 100px;
+    }
+
+    .fila-postres .postres-info {
+        width: 220px;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .postres .h2-postres {
+        width: 800px;                            
+        margin-left: 1210px;  
+    }
+
+    .postres-info .pro-h3-postres {
+        width: 120px;
+        margin-bottom: 400px;
+        margin-left: 30px;
+        margin-right: 100px;
+    }
+
+    .postres-info {
+        width: 300px;
+        margin-left: 30px;
+    }
+    
+}
+
+@media (min-width: 1024px){
+
+
+}
+
 
 .postres {
     display: flex;                
@@ -247,9 +391,9 @@ nav ul li a {
     border-radius: 10px;
 }
 .h2-postres {
-    width: 100%;                 
-    max-width: 25cm;            
-    margin: 0 auto;             
+    width: 800px;                            
+    margin-left: 550px;  
+
     text-align: left;   
     margin-bottom: 30px;       
 }
@@ -362,4 +506,13 @@ nav ul li a {
     width: 100%;              
     max-width: 100%;           
     margin: 10px;          
+    }
+
+    footer {
+        text-align: center;         
+        padding: 20px;             
+        color: #000000;            
+        font-size: 18px;
+    
+        font-weight: bold;         
     }
