@@ -1,0 +1,154 @@
+body {
+    background: repeating-linear-gradient(
+        90deg,
+        #b2e2dd,
+        #b2e2dd 50px,
+        #75cac3 50px,
+        #75cac3 100px
+    );
+    color: #333;
+}
+
+header {
+    background-color: #009999;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+.banner {
+    background-color: #009999;
+}
+
+.banner .banner-texto {
+    color: #fff;
+}
+
+.container-pro {
+    background-color: #009999;
+}
+
+.promociones {
+    background-color: #009999;
+}
+
+.text {
+    background-color: #b40000;  
+    color: white;   
+}
+
+.pro-h3 {
+    background-color: #b40000;            
+    color: white;  
+}
+
+.promocion {
+    background-color: #C6E4DF;  
+    color: #333;    
+}
+
+.text-p {
+    color: #2DA9A2; 
+}
+
+footer {
+    color: #000000; 
+}
+
+/*Colores menu*/
+.MENU-h3 {
+    background-color: #B2292E;          
+    color: white; 
+}
+
+.menu-secciones .seccion {
+    background-color: #B2292E;          
+    color: white;  
+}
+
+.menu-secciones .seccion:hover {
+    background-color: darkred;      
+}
+
+.crep-pre {
+    background-color: #009999;
+}
+
+.text {
+    background-color: #B2292E;  
+    color: white;     
+}
+
+.crep-pre {
+    background-color: #009999;
+}
+
+.premium-info {
+    background-color: #C6E4DF;  
+    color: #333;  
+}
+
+.text-p {
+    color: #2DA9A2;
+}
+
+.price {
+    color: white;
+}
+
+.extra-price {
+    color: white;
+}
+
+.premium-info {
+    background-color: #C6E4DF;
+}
+
+.price-crepizza {
+    color: white;
+}
+
+.extra-price-crepizza {
+    color: white;
+}
+
+.crepizza {
+    background-color: #009999;
+}
+
+.crepizza-info {
+    background-color: #C6E4DF;  
+    color: #333;    
+}
+
+.price-crepizza {
+    color: white;
+}
+
+.extra-price-crepizza {
+    color: white;
+}
+
+.tradicionales {
+    background-color: #009999;
+}
+
+.price-tra {
+    color: white;
+}
+
+.extra-price-tra {
+    color: white;
+}
+
+.tradicionales-info {
+    background-color: #C6E4DF;  
+    color: #333; 
+}
+
+
+
+
+
+

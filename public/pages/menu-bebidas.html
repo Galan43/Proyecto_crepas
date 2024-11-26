@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dulce pecado</title>
     <link rel="stylesheet" href="../styles/menu-bebidas.css">
+    <link rel="stylesheet" href="../styles/modal-styles.css">
 </head>
 <body>
     <header>
@@ -16,6 +17,12 @@
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../pagina-menu.html">Menú Dulce Pecado</a></li>
                 <li><a href="../reservaciones.html">Reservaciones</a></li>
+                <li>
+                    <input type="checkbox" id="btn-modal">
+                    <label for="btn-modal" class="modal-label">
+                        <img class="modal-image" src="../styles/images/muñeca-lele-ayuda.png" alt="">
+                    </label>
+                </li>
             </ul>
         </nav>
     </header>
@@ -104,9 +111,33 @@
         </div>
     </section>
 
+    <div class="modal">
+        <div class="modal-container">
+            <header>
+                <img class="modal-image-header" src="../styles/images/muñeca-lele.png" alt="Muñeca lele">
+            </header>
+            <label class="modal-label" for="btn-modal">X</label>
+            <div class="modal-content">
+                <label for="color-mode">Modo de Daltonismo</label>
+                <select name="select-color" id="color-mode">
+                    <option value="protanopia">Protanopia</option>
+                    <option value="deuteranopia">Deuteranopia</option>
+                    <option value="tritanopia">Tritanopia</option>
+                    <option value="achromatopsia">Achromatopsia</option>
+                </select>
+                <button id="toggle-color">Activar Modo Daltonismo</button>
+                <button id="reset-color">Restaurar Colores</button>
+            </div>
+        </div>
+    </div>
     
     <footer>
         <p>&copy; 2024 Todos los derechos reservados</p>
     </footer>
 </body>
+
+<script src="../js/modal.js"></script>
+<script src="../js/color-blind.js"></script>
+<script src="../js/daltonismo.js"></script>
+
 </html>

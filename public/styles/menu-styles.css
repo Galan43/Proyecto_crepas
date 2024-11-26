@@ -4,14 +4,14 @@ body {
     display: flex;               
     flex-direction: column;      
     font-family: Arial, Helvetica, sans-serif;
-    background: repeating-linear-gradient(
+    /* background: repeating-linear-gradient(
         90deg,
         #b2e2dd,
         #b2e2dd 50px,
         #75cac3 50px,
         #75cac3 100px
     );
-    color: #333;
+    color: #333; */
 }
 main {
     flex: 1;                    
@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #009999;
+    /* background-color: #009999; */
     padding: 20px;
 }
 
@@ -72,7 +72,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    /* color: white; */
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
@@ -83,8 +83,8 @@ nav ul li a {
 
 /* MENU DULCE PECADO*/
 .MENU-H3 {
-    background-color: #B2292E;          
-    color: white;                   
+    /* background-color: #B2292E;          
+    color: white;                    */
     padding: 10px;                  
     text-align: center;             
     font-size: 1.5em;               
@@ -104,8 +104,8 @@ nav ul li a {
 }
 /* Estilo para cada sección de menú */
 .menu-secciones .seccion {
-    background-color: #B2292E;          
-    color: white;                   
+    /* background-color: #B2292E;          
+    color: white;                    */
     padding: 15px;                  
     text-align: center;             
     font-size: 1.2em;               
@@ -116,9 +116,9 @@ nav ul li a {
     display: block;                 
     transition: background-color 0.3s; 
 }   
-.menu-secciones .seccion:hover {
+/* .menu-secciones .seccion:hover {
     background-color: darkred;      
-}
+} */
 
 
 /*Estilos de la seccion de crepas premium*/
@@ -129,7 +129,7 @@ nav ul li a {
     flex-direction: column;      
     justify-content: space-between;
     align-items: center;
-    background-color: #009999;
+    /* background-color: #009999; */
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
@@ -143,8 +143,8 @@ nav ul li a {
 }
 
 .text {
-    background-color: #B2292E;  
-    color: white;                
+    /* background-color: #B2292E;  
+    color: white;                 */
     padding: 15px 10px;              
     border-radius: 20px;         
     display: inline-block;       
@@ -320,8 +320,8 @@ nav ul li a {
 
 /* Título de cada crepa */
 .pro-h3 {
-    background-color: #B2292E;          
-    color: white;                         
+    /* background-color: #B2292E;          
+    color: white;                          */
     display: inline-block;                
     padding: 10px 20px;                   
     border-radius: 20px;                  
@@ -341,8 +341,8 @@ nav ul li a {
 
 /* informacion de cada crepa*/
 .premium-info {
-    background-color: #C6E4DF;  
-    color: #333;                
+    /* background-color: #C6E4DF;  
+    color: #333;                 */
     padding: 25px 15px;         
     border-radius: 20px;        
     margin: 10px;               
@@ -364,7 +364,7 @@ nav ul li a {
 /* Texto de cada crepa */
 .text-p {
     font-size: 1rem;                     
-    color: #2DA9A2;                       
+    /* color: #2DA9A2; */
     margin: 5px;                        
     font-weight: bold;                    
     text-align: left;    
@@ -410,14 +410,14 @@ nav ul li a {
 
     .price {
         font-size: 3rem;
-        color: white;
+        /* color: white; */
         font-weight: bold;
         right: -500px;
         margin-bottom: 10px;
     }
     
     .extra-price {    
-        color: white;
+        /* color: white; */
         font-weight: normal;
         margin: 0;
 
@@ -440,7 +440,7 @@ nav ul li a {
     width: 22%; 
     margin: 10px;
     padding: 20px;
-    background-color: #C6E4DF;
+    /* background-color: #C6E4DF; */
     border-radius: 20px;
     position: relative;
     text-align: center;
@@ -554,7 +554,7 @@ nav ul li a {
     
         .price-crepizza {
             font-size: 2rem;
-            color: white;
+            /* color: white; */
             font-weight: bold;
           
     
@@ -563,7 +563,7 @@ nav ul li a {
         
         .extra-price-crepizza {
             font-size: 1rem;
-            color: white;
+            /* color: white; */
             font-weight: normal;
             margin: 0;
     
@@ -598,7 +598,7 @@ nav ul li a {
     flex-direction: column;      
     justify-content: space-between;
     align-items: center;
-    background-color: #009999;
+    /* background-color: #009999; */
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
@@ -614,8 +614,8 @@ nav ul li a {
 }
 
 .text {
-    background-color: #B2292E;  
-    color: white;                
+    /* background-color: #B2292E;  
+    color: white;                 */
     padding: 15px 10px;              
     border-radius: 20px;         
     display: inline-block;       
@@ -627,8 +627,8 @@ nav ul li a {
 
 /* informacion de cada crepa*/
 .crepizza-info {
-    background-color: #C6E4DF;  
-    color: #333;                
+    /* background-color: #C6E4DF;  
+    color: #333;                 */
     padding: 30px 15px;         
     border-radius: 20px;        
     margin: 10px;               
@@ -647,7 +647,7 @@ nav ul li a {
 /* Texto de cada crepa */
 .text-p {
     font-size: 1rem;                     
-    color: #2DA9A2;                       
+    /* color: #2DA9A2;                        */
     margin: 5px;                        
     font-weight: bold;                    
     text-align: left;    
@@ -683,7 +683,7 @@ nav ul li a {
 
     .price-crepizza {
         font-size: 3rem;
-        color: white;
+        /* color: white; */
         font-weight: bold;
       
 
@@ -692,7 +692,7 @@ nav ul li a {
     
     .extra-price-crepizza {
         font-size: 2rem;
-        color: white;
+        /* color: white; */
         font-weight: normal;
         margin: 0;
 
@@ -910,7 +910,7 @@ nav ul li a {
     flex-direction: column;      
     justify-content: space-between;
     align-items: center;
-    background-color: #009999;
+    /* background-color: #009999; */
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
@@ -938,21 +938,21 @@ nav ul li a {
 
     .price-tra {
         font-size: 3rem;
-        color: white;
+        /* color: white; */
         font-weight: bold;
         margin: 0;
     }
     
     .extra-price-tra {
         font-size: 2rem;
-        color: white;
+        /* color: white; */
         font-weight: normal;
         margin: 0;
     }
     
     .tradicionales-info {
-        background-color: #C6E4DF;  
-        color: #333;                
+        /* background-color: #C6E4DF;  
+        color: #333;                 */
         padding: 30px 15px;         
         border-radius: 20px;        
         margin: 10px;               

@@ -4,14 +4,14 @@ body {
     display: flex;               
     flex-direction: column;      
     font-family: Arial, Helvetica, sans-serif;
-    background: repeating-linear-gradient(
+    /* background: repeating-linear-gradient(
         90deg,
         #b2e2dd,
         #b2e2dd 50px,
         #75cac3 50px,
         #75cac3 100px
     );
-    color: #333;
+    color: #333; */
 }
 main {
     flex: 1;                    
@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #009999;
+    /* background-color: #009999; */
     padding: 20px;
 }
 
@@ -129,7 +129,7 @@ nav ul li a {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    background-color: #009999;
+    /* background-color: #009999; */
     padding: 30px;
     margin: 20px;
     border-radius: 10px;
@@ -137,7 +137,7 @@ nav ul li a {
 
 .banner-texto {
     flex: 1;
-    color: white;
+    /* color: white; */
     font-size: 34px;
     text-align: left;
     font-family: Garamond;
@@ -155,7 +155,7 @@ nav ul li a {
     margin-left: 10cm;
 }
 .container-pro{
-    background-color: #009999;
+    /* background-color: #009999; */
     border-radius: 20px;
 }
 /* Estilos de la seccion de promociones */
@@ -164,7 +164,7 @@ nav ul li a {
     flex-direction: column;      
     justify-content: space-between;
     align-items: center;
-    background-color: #009999;
+    /* background-color: #009999; */
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
@@ -179,8 +179,8 @@ nav ul li a {
 }
 
 .text {
-    background-color: #b40000;  
-    color: white;                
+    /* background-color: #b40000;  
+    color: white;                 */
     padding: 15px 10px;              
     border-radius: 20px;         
     display: inline-block;       
@@ -189,8 +189,8 @@ nav ul li a {
 }
 
 .pro-h3 {
-    background-color: #b40000;            
-    color: white;                         
+    /* background-color: #b40000;            
+    color: white;                          */
     display: inline-block;               
     padding: 10px 20px;                   
     border-radius: 20px 20px 20px 20px;                  
@@ -206,8 +206,8 @@ nav ul li a {
     font-size: 2vh;                     
 }
 .promocion {
-    background-color: #C6E4DF;  
-    color: #333;                
+    /* background-color: #C6E4DF;  
+    color: #333;                 */
     padding: 20px;             
     border-radius: 20px;        
     margin: 10px;               
@@ -253,7 +253,7 @@ nav ul li a {
 
 .text-p {
     font-size: 1.5rem;                     
-    color: #2DA9A2;                       
+    /* color: #2DA9A2;                        */
     margin: 5px 0;                        
     font-weight: bold;                      
     text-align: center;
@@ -261,12 +261,11 @@ nav ul li a {
     justify-content: center;                     
     margin-top: 1.5cm;
 }
+
 /* Estilos Footer */
 footer {
-    text-align: center;         
-    padding: 20px;             
-    color: #000000;            
+    text-align: center;                      
+    /* color: #000000;             */
     font-size: 18px;
-
     font-weight: bold;         
 }
